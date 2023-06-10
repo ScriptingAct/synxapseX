@@ -86,8 +86,6 @@ testSection:AddButton("Makuro Hub", function(ClientLol)
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
-local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
 local testSection = AimingTab:CreateSector("Discord", "left")  
 
 testSection:AddButton("Discord Link Press F9", function(ClientLol)
