@@ -33,16 +33,6 @@ testSection:AddButton("Inf Jump", function(ClientLol)
     loadstring(game:HttpGet('https://pastebin.com/raw/bC97eAyR'))()
 end)
 
-local testSection = AimingTab:CreateSector("Blox Fruits Good Script", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
-testSection:AddButton("Zaque Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
-end)
-
-testSection:AddButton("Makuro Hub", function(ClientLol)
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-end)
-
 local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Shadows Hub", function(ClientLol)
@@ -88,13 +78,21 @@ testSection:AddButton("Remove Greed", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/LQV1Ei3h", true))()
 end)
 
-local AimingTab = Window:CreateTab("Space Hub") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+local AimingTab = Window:CreateTab("Blox Fruits") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
 
 local testSection = AimingTab:CreateSector("Blox Fruits Auto Farm", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Synx Hub", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/sKBVRKy7"))()
+end)
+
+testSection:AddButton("Zaque Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+end)
+
+testSection:AddButton("Makuro Hub", function(ClientLol)
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
 local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
