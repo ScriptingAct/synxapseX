@@ -40,7 +40,7 @@ testSection:AddButton("Zaque Hub", function(ClientLol)
 end)
 
 testSection:AddButton("Makuro Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"))()
 end)
 
 testSection:AddButton("Synx Hubunction(ClientLol)
