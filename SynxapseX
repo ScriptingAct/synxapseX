@@ -1,0 +1,106 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() -- It's Not My owned Ui HUb
+local Window = Library:CreateWindow("Synapse X Hub (Premium Version)", Vector2.new(492, 598), Enum.KeyCode.RightControl)
+local AimingTab = Window:CreateTab("Main")
+
+
+local testSection = AimingTab:CreateSector("Script Free Exploit", "left")  
+
+testSection:AddButton("Inf Yield", function(ClientLol)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+testSection:AddButton("CMDX", function(ClientLol)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+testSection:AddButton("Domain", function(ClientLol)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+
+testSection:AddButton("SolarisHub", function(ClientLol)
+    loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+end)
+
+testSection:AddButton("Orca", function(ClientLol)
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+end)
+
+testSection:AddButton("DexV4", function(ClientLol)
+    loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
+end)
+
+testSection:AddButton("Inf Jump", function(ClientLol)
+    loadstring(game:HttpGet('https://pastebin.com/raw/bC97eAyR'))()
+end)
+
+local testSection = AimingTab:CreateSector("Blox Fruits Good Script", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddButton("Zaque Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+end)
+
+testSection:AddButton("Makuro Hub", function(ClientLol)
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddButton("Shadows Hub", function(ClientLol)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/Loader52.lua'))()
+end)
+
+testSection:AddButton("Vy Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+testSection:AddButton("Crucifix On everythings", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/x4Ctbu0f", true))()
+end)
+
+local AimingTab = Window:CreateTab("Obby Leady") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+
+
+local testSection = AimingTab:CreateSector("Obby Leader", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddButton("Kohler Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/Y01QqSCJ", true))()
+end)
+
+local AimingTab = Window:CreateTab("Anti Cheat") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+
+
+local testSection = AimingTab:CreateSector("Bypass Kick + anti Cheat", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddButton("Anti Cheat 1", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/tPSRRaM5", true))()
+end)
+
+testSection:AddButton("Anti Cheat 2", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/Tf0xUdjp", true))()
+end)
+
+local AimingTab = Window:CreateTab("Doors Super Hard")
+
+
+local testSection = AimingTab:CreateSector("Disable Greed", "left") 
+
+testSection:AddButton("Remove Greed", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/LQV1Ei3h", true))()
+end)
+
+local AimingTab = Window:CreateTab("Space Hub") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+
+
+local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddButton("Space Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
+end)
+
+local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+local testSection = AimingTab:CreateSector("Discord", "left")  
+
+testSection:AddButton("Discord Link Press F9", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/Cz2bRMu3"))()
+end)
