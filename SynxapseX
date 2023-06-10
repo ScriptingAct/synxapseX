@@ -43,15 +43,11 @@ testSection:AddButton("Makuro Hub", function(ClientLol)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
-testSection:AddButton("Blox Fruits", function(ClientLol)
+testSection:AddButton("Synx Hubunction(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/sKBVRKy7"))()
 end)
 
 local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
-testSection:AddButton("Shadows Hub", function(ClientLol)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/Loader52.lua'))()
-end)
 
 testSection:AddButton("Vy Hub", function(ClientLol)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
@@ -81,15 +77,6 @@ end)
 
 testSection:AddButton("Anti Cheat 2", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/Tf0xUdjp", true))()
-end)
-
-local AimingTab = Window:CreateTab("Doors Super Hard")
-
-
-local testSection = AimingTab:CreateSector("Disable Greed", "left") 
-
-testSection:AddButton("Remove Greed", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/LQV1Ei3h", true))()
 end)
 
 local AimingTab = Window:CreateTab("Discord") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
