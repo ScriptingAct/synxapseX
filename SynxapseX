@@ -97,9 +97,9 @@ testSection:AddButton("Space Hub", function(ClientLol)
     loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
 end)
 
-local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local AimingTab = Window:CreateTab("Discord") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
-local testSection = AimingTab:CreateSector("Discord", "left")  
+local testSection = AimingTab:CreateSector("Discord link", "left")  
 
 testSection:AddButton("Discord Link Press F9", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/Cz2bRMu3"))()
