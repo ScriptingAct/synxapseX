@@ -40,7 +40,11 @@ testSection:AddButton("Zaque Hub", function(ClientLol)
 end)
 
 testSection:AddButton("Makuro Hub", function(ClientLol)
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+testSection:AddButton("Synx HubBlox Fruits", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/sKBVRKy7"))()
 end)
 
 local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
