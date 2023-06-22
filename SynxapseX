@@ -33,57 +33,12 @@ testSection:AddButton("Inf Jump", function(ClientLol)
     loadstring(game:HttpGet('https://pastebin.com/raw/bC97eAyR'))()
 end)
 
-local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local AimingTab = Window:CreateTab("King Legacy") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
-testSection:AddButton("Shadows Hub", function(ClientLol)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/Loader52.lua'))()
-end)
+local testSection = AimingTab:CreateSector("OP SCRIPT", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
-testSection:AddButton("Vy Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
-end)
-
-testSection:AddButton("Crucifix On everythings", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/x4Ctbu0f", true))()
-end)
-
-local AimingTab = Window:CreateTab("Obby Leady") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
-
-
-local testSection = AimingTab:CreateSector("Obby Leader", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
-testSection:AddButton("Kohler Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/Y01QqSCJ", true))()
-end)
-
-local AimingTab = Window:CreateTab("Anti Cheat") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
-
-
-local testSection = AimingTab:CreateSector("Bypass Kick + anti Cheat", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
-testSection:AddButton("Anti Cheat 1", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/tPSRRaM5", true))()
-end)
-
-testSection:AddButton("Anti Cheat 2", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/Tf0xUdjp", true))()
-end)
-
-local AimingTab = Window:CreateTab("Blox Fruits") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
-
-
-local testSection = AimingTab:CreateSector("Blox Fruits Auto Farm", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
-
-testSection:AddButton("Synx Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://pastebin.com/raw/sKBVRKy7"))()
-end)
-
-testSection:AddButton("Zaque Hub", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
-end)
-
-testSection:AddButton("Makuro Hub", function(ClientLol)
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+testSection:AddButton("Xenon Hub", function(ClientLol)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/legacy"))()
 end)
 
 local testSection = AimingTab:CreateSector("Discord", "left")  
