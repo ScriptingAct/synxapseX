@@ -37,8 +37,12 @@ local AimingTab = Window:CreateTab("King Legacy") --you can rename this tab to w
 
 local testSection = AimingTab:CreateSector("OP SCRIPT", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
-testSection:AddButton("Xenon Hub", function(ClientLol)
+testSection:AddButton("Xenon Hub V1 old Does't work", function(ClientLol)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/legacy"))()
+end)
+
+testSection:AddButton("HOHO HUB WORK UPDATE", function(ClientLol)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 local testSection = AimingTab:CreateSector("Discord", "left")  
