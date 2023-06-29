@@ -45,8 +45,12 @@ testSection:AddButton("HOHO HUB WORK UPDATE", function(ClientLol)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-local testSection = AimingTab:CreateSector("Discord", "left")  
+local testSection = AimingTab:CreateSector("Setting", "left")  
 
 testSection:AddButton("Discord Link Press F9", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/Cz2bRMu3"))()
+end)
+
+testSection:AddButton("Rejoin", function(ClientLol)
+    loadstring(game:HttpGet("https://pastebin.com/raw/vPnxGNvU"))()
 end)
