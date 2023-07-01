@@ -57,6 +57,4 @@ testSection:AddButton("Rejoin", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/AE2Q5WCh"))()
 end)
 
-testSection:AddButton("Auto Rejoin", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
