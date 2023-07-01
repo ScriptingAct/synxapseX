@@ -1,10 +1,5 @@
 0local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() -- It's Not My owned Ui HUb
 local Window = Library:CreateWindow("Synapse X Hub (Premium Version)", Vector2.new(492, 598), Enum.KeyCode.RightControl)
-local AimingTab = Window:CreateTab("Info")
-
-testSection:AddButton("Check update", function(ClientLol)
-    
-end)
 
 local AimingTab = Window:CreateTab("Free Script"
 
