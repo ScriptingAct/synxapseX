@@ -11,6 +11,9 @@ end)
 testSection:AddButton("Fix Tabs UI", function(ClientLol)
 end)
 
+testSection:AddButton("Add Auto Rejoin", function(ClientLol)
+end)
+
 local AimingTab = Window:CreateTab("Free Script"
 
 local testSection = AimingTab:CreateSector("Script Free Exploit", "left")  
