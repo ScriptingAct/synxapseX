@@ -2,6 +2,16 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/blood
 local Window = Library:CreateWindow("Synapse X Hub (Premium Version)", Vector2.new(492, 598), Enum.KeyCode.RightControl)
 local AimingTab = Window:CreateTab("Main")
 
+testSection:AddButton("Script Version 3.6.6", function(ClientLol)
+end)
+
+testSection:AddButton("Added Rejoin", function(ClientLol)
+end)
+
+testSection:AddButton("Fix Tabs UI", function(ClientLol)
+end)
+
+local AimingTab = Window:CreateTab("Free Script"
 
 local testSection = AimingTab:CreateSector("Script Free Exploit", "left")  
 
