@@ -3,7 +3,7 @@ local Window = Library:CreateWindow("Synapse X Hub (Premium Version)", Vector2.n
 local AimingTab = Window:CreateTab("Info")
 
 testSection:AddButton("Check update", function(ClientLol)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    
 end)
 
 local AimingTab = Window:CreateTab("Free Script"
